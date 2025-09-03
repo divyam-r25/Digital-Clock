@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link href = "stop.css" rel = "Stylesheet">
+</head>
+<body>
+    
+     <nav class = "navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+      <a class="nav-link" id = "anchor" href = "digital.html">Digital Clock</a>
+        <a class="nav-link" id = "anchor" href = "analog.html">Analog Clock</a>
+        <a class="nav-link" id = "anchor" href = "More">More</a>
+    </nav>
+    <h1 class = "stopwatch">Stop Watch</h1>
+      
+      <div  class ="container" id ="time"> 
+      <section class="numbers">
+        <strong  id="hour">00</strong>
+        <strong class="text">H</strong>
+      </section>
+
+    <section class="numbers">
+         <strong id="minutes">00</strong>
+        <strong class="text">M</strong> 
+    </section>
+      <section class="numbers">
+        <strong id="seconds">00</strong>
+        <strong class="text">S</strong>
+      </section>
+      <section class="numbers">
+        <p id="milis">00</p>
+        <p class ="text">MS</p>
+       
+      </section>
+  
+  </div>
+  <div >
+      <section class = "buttons">
+        <div class = "item" id = "start/resume">▶</div>
+        <div class = "item" id = "stop">⏹</div >
+        <div class = "item" id = "reset">🔄</div >
+      </section>
+    </div>
+    <script src = "stop.js"></script>
+</body>
+</html>
